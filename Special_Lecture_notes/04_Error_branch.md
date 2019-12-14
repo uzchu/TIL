@@ -93,7 +93,7 @@ $ git branch -d 합쳤던 브랜치명(A)
 
 1. ##### 기존 master에 이후 작업내용이 없을 때 : **Fast- forward**
 
-   ![슬라이드1](C:%5CUsers%5Cstudent%5CDesktop%5C%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG)
+   ![슬라이드1](https://user-images.githubusercontent.com/58683097/70846099-631e9680-1e99-11ea-8e78-9a4e706743bc.PNG)
 
    - 새로운 브랜치 생성 ($ git checkout –b new)
    - 기존 master와 new 병합 ($ git checkout master, $ git merge new)
