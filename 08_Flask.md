@@ -16,7 +16,8 @@
 #### 2. Flask 사용법 (처음 사용 시)
 
 1. 가상환경에서 flask폴더를 생성 후 해당폴더에 Flask 설치, code창 실행
-   - ls를 통해 현재 폴더에 venv가 있는지 확인
+   - ls를 통해 현재 폴더에 venv(가상환경)가 있는지 확인 
+     - (가상환경 관련 내용은 07_Virtual_environment.md 참고)
    - venv가 있다면, 가상환경 만들 때 activate만 치면 됨
 
 ```shell
