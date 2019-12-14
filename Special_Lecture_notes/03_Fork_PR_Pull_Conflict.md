@@ -17,13 +17,13 @@
 
 1. 다른사람의 Github에서 `original repository`를 `fork`
 
-   ![image-20191211092029495](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191211092029495.png)
+   ![image-20191211092029495](https://user-images.githubusercontent.com/58683097/70846185-14bdc780-1e9a-11ea-86be-1683ccfe778f.png)
 
 2. 내 Github에 가서 `fork`된 게시물 확인 후, 내 컴퓨터에 내려받기 위한  `clone` 작업수행
 
    - `fork`된 `repository`에서 `Clone or download`버튼 클릭 후 주소 복사
 
-   ![image-20191211092132230](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191211092132230.png)
+   ![image-20191211092132230](https://user-images.githubusercontent.com/58683097/70846193-2e5f0f00-1e9a-11ea-935a-1f0c90f89939.png)
 
 ```shell
 $ git clone https://github.com/uzchu/n-haengsi.git(복사된 주소)
@@ -41,11 +41,11 @@ $ git push origin master
    
    -  `original repository`로 이동 
    
-   ![image-20191211092416120](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191211092416120.png)
+   ![image-20191211092416120](https://user-images.githubusercontent.com/58683097/70846200-446ccf80-1e9a-11ea-858e-479916686144.png)
    
    - `pull request`탭으로 가서 `New pull request`버튼 클릭, 공손하게 요청
    
-   ![image-20191211092649821](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191211092649821.png)
+   ![image-20191211092649821](https://user-images.githubusercontent.com/58683097/70846203-5484af00-1e9a-11ea-81b3-d42bf66040d1.png)
    
 5. 승인 되면 해당 저장소에 `merge`됨
 
