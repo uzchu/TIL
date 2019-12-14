@@ -76,7 +76,7 @@
    	
    	if text =='/로또':
        	reply = random.sample(range(1,46),6)
-       requests.get(f'{app_url}/sendMessagechat_id=chat_id}&text={reply}')
+       requests.get(f'{app_url}/sendMessagechat_id={chat_id}&text={reply}')
        return '', 200
    
    #API 이용했을 때 예시(naver api papago)
@@ -107,7 +107,7 @@
            
    	else:
    		reply = text
-       requests.get(f'{app_url}/sendMessagechat_id=chat_id}&text={reply}')
+       requests.get(f'{app_url}/sendMessagechat_id={chat_id}&text={reply}')
        return '', 200        
    ```
 
