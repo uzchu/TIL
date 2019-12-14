@@ -101,7 +101,7 @@ $ git branch -d 합쳤던 브랜치명(A)
 
 2. ##### 기존 master에 이후 작업내용이 있을 때 (충돌이력 X) : **Auto merge**
 
-   ![슬라이드2](C:%5CUsers%5Cstudent%5CDesktop%5C%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG)
+   ![슬라이드2](https://user-images.githubusercontent.com/58683097/70846121-9b25d980-1e99-11ea-8ea0-b7138e972ff9.PNG)
 
    - 새로운 브랜치 생성 ($ git checkout –b test)
 
@@ -111,7 +111,7 @@ $ git branch -d 합쳤던 브랜치명(A)
 
 3. ##### 기존 master에 이후 작업내용이 있을 때 (충돌이력 O) : Merge conflict
 
-   ![슬라이드3](C:%5CUsers%5Cstudent%5CDesktop%5C%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG)
+   ![슬라이드3](https://user-images.githubusercontent.com/58683097/70846127-a8db5f00-1e99-11ea-9fee-22d3b06ba4a0.PNG)
 
    
 
