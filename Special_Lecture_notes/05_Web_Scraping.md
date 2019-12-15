@@ -1,18 +1,51 @@
-## Python_Basics
+## Web scraping (with Python)
 
-### 1. Python으로 웹 스크래핑 (Request, BeautifulSoup 이용)
+> - Web scraping : 특정 페이지에서 원하는 정보를 추출해 내는 것 (가장 큰 개념인 듯 함)
+> - Web crawling : 웹을 구동시켜서 웹을 돌아다니면서(?) 링크를 수집하는 것
+> - Web parsing : 웹 페이지 내에 있는 key값을 통해 추출하거나 어떤 패턴을 분석해서 정보를 수집하는 것
 
----
 
-#### 1. Web?
+
+## 1. Web?
 
 > 모든 요청은 브라우저의 주소창을 이용
 
-#### 2. 스크래핑 방법
+
+
+## 2. Web Scraping 방법
 
 - `pip install requests` : git bash창에서 requests 모듈 설치
 - `pip list` : 설치된 라이브러리 목록
 - `pip install bs4` : bs4 설치 (BeautifulSoup이 들어있음)
+
+
+
+### 1. Requests
+
+> Python에서 HTTP 요청을 보내는 모듈
+
+- 사용방법
+  - `requests`모듈을 불러온 뒤, 'http://www.uzchu.com'주소로 get방식 요청을 보내고 응답값을 받아옴
+
+```
+import requests
+URL = 'http://www.uzchu.com'
+response = requests.get(URL)
+print(response.text) #모든 속성값을 text로 받아 출력
+```
+
+### 2. BeautifulSoup
+
+> bs4 패키지 안에 있는 모듈로, 파싱할 때 사용
+
+- 사용방법
+  - `bs4`에 있는 `BeautifulSoup`를 불러온 뒤,`requests`로 받아온 응답값에서 필요한 부분을 추출
+    - `#` : id
+    - `.` : class
+    - `p` : element
+    - `*` : all elements
+    - `>` : 바로 부모 자식 간
+    - ` ` : 손자? 
 
 ```python
 import requests
@@ -31,7 +64,7 @@ for exchange in exchanges:
 
 
 
-### 2. Python 파일 조작방법
+## 3. Python 파일 조작방법
 
 #### 1. 파일 읽고 저장
 
@@ -43,7 +76,7 @@ for i in range(10):
 f.close() #요샌 파이썬이 똑똑해져서 안써줘도 됨
 
 #read write
-with open('mulcam2.txt','w') as f:
+with open('mulcam2.txt','w') as f
     for i in range(10):
         f.write(f"This is line {i}. \n")
         pass
