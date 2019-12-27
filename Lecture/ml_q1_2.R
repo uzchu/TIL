@@ -1,3 +1,4 @@
+#비지도학습(ANN,인공신경망분석)
 prob <- read.csv('MLData/problem.csv',header = T,stringsAsFactors = F)
 head(prob)
 
